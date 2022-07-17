@@ -1,0 +1,16 @@
+com/example/macrozoidit/BuildConfig.java
+ com.example.macrozoidit.BuildConfig
+com/example/macrozoidit/graphics.java
+ com.example.macrozoidit.graphics
+com/example/macrozoidit/AboutUS.java
+ com.example.macrozoidit.AboutUS
+com/example/macrozoidit/splash.java
+ com.example.macrozoidit.splash
+ com.example.macrozoidit.splash$1
+com/example/macrozoidit/MainActivity.java
+ com.example.macrozoidit.MainActivity
+ com.example.macrozoidit.MainActivity$1
+ com.example.macrozoidit.MainActivity$2
+com/example/macrozoidit/components.java
+ com.example.macrozoidit.components
+ com.example.macrozoidit.components$1
