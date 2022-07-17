@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c9cfcf"
+    tools:context=".components">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rowCount="2"
+            android:columnCount="2"
+            android:layout_margin="10dp"
+            android:layout_centerInParent="true"
+            >
+            <FrameLayout>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:scaleY="0.95"
+                    android:scaleX="0.95"
+                    android:layout_gravity="center"
+                    android:src="@drawable/gpu2"
+                    android:id="@+id/HOME"
+                    ></ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:text="Gigabyte Aorus 3070"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    >
+
+                </TextView>
+
+            </FrameLayout>
+
+            <FrameLayout>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:scaleY="0.95"
+                    android:scaleX="0.95"
+                    android:layout_gravity="center"
+                    android:src="@drawable/gpu3"
+                    android:id="@+id/gpu3"
+                    ></ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:text="MSI Gaming X trio 3070"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="25dp"
+                    >
+
+                </TextView>
+
+            </FrameLayout>
+
+            <FrameLayout>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:padding="0dp"
+                    android:scaleY="0.95"
+                    android:scaleX="0.95"
+                    android:layout_gravity="center"
+                    android:src="@drawable/gpu4"
+                    android:id="@+id/gpu4"
+                    ></ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:text="MSI Ventus X 3070"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="35dp"
+                    >
+
+                </TextView>
+
+            </FrameLayout>
+
+            <FrameLayout>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:scaleY="0.95"
+                    android:scaleX="0.95"
+                    android:layout_gravity="center"
+                    android:src="@drawable/gpu5"
+                    android:id="@+id/gpu"
+                    ></ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:text="Gigabyte Gaming OC 3070"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="25dp"
+                    >
+
+                </TextView>
+
+            </FrameLayout>
+
+            <FrameLayout>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:scaleY="0.95"
+                    android:scaleX="0.95"
+                    android:layout_gravity="center"
+                    android:src="@drawable/gpu6"
+                    android:id="@+id/gpu6"
+                    ></ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:text="ASUS ROG Strix 3070"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="25dp"
+                    >
+
+                </TextView>
+
+            </FrameLayout>
+
+            <FrameLayout>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:scaleY="0.95"
+                    android:scaleX="0.95"
+                    android:layout_gravity="center"
+                    android:src="@drawable/gpu7"
+                    android:id="@+id/gpu7"
+                    ></ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:text="ASUS TUF Gaming 3070"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="25dp"
+                    >
+
+                </TextView>
+
+            </FrameLayout>
+
+        </GridLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

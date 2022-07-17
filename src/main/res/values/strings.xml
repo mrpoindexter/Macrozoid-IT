@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MacrozoidIT</string>
+    <string-array name="components">
+        <item>Processor</item>
+        <item>Motherboard</item>
+        <item>RAM</item>
+        <item>SSD</item>
+        <item>HDD</item>
+        <item>GPU</item>
+        <item>Power Supply</item>
+        <item>Casing</item>
+        <item>Cooler</item>
+        <item>Casing Cooler</item>
+    </string-array>
+
+    <string-array name="accessories">
+        <item>Monitor</item>
+        <item>Keyboard</item>
+        <item>Mouse</item>
+        <item>Mousepad</item>
+        <item>Speaker</item>
+        <item>Headset</item>
+        <item>Microphone</item>
+        <item>Webcam</item>
+        <item>Antivirus</item>
+    </string-array>
+</resources>

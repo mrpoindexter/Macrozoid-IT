@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page5"
+    tools:context=".AboutUS">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME: Ahnaf Abid Khan"
+        android:layout_marginTop="375dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:id="@+id/name1"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:gravity="center"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone1"
+        android:text="Phone: 01313981144"
+        android:layout_below="@+id/email1"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/green"
+        android:gravity="center"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email1"
+        android:text="Email: 190104002@aust.edu"
+        android:layout_below="@+id/name1"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/green"
+        ></TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME: Shahabaj Tamjid"
+        android:layout_marginTop="210dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:id="@+id/name2"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:gravity="center"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone2"
+        android:text="Phone: 01853455859"
+        android:layout_below="@+id/email2"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/green"
+        android:gravity="center"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email2"
+        android:text="Email: 190104009@aust.edu"
+        android:layout_below="@+id/name2"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/green"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group 8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        >
+    </TextView>
+
+
+</RelativeLayout>

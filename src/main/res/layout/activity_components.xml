@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c9cfcf"
+    tools:context=".components">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll"
+    >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="1"
+        android:columnCount="2"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        >
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:src="@drawable/cpu"
+                android:background="@color/white"
+                android:id="@+id/HOME"
+                ></ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:text="CPU"
+                android:layout_gravity="bottom|center"
+                android:textStyle="bold"
+                ></TextView>
+
+
+        </androidx.cardview.widget.CardView>>
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:src="@drawable/gpu"
+                android:background="@color/white"
+                android:id="@+id/gpu"
+                ></ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:text="GPU"
+                android:layout_gravity="bottom|center"
+                android:textStyle="bold"
+                ></TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:src="@drawable/ram"
+                android:background="@color/white"
+                android:id="@+id/ram"
+                ></ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:text="RAM"
+                android:layout_gravity="bottom|center"
+                android:textStyle="bold"
+                ></TextView>
+
+        </androidx.cardview.widget.CardView>>
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:src="@drawable/motherboard"
+                android:background="@color/white"
+                android:id="@+id/motherboard"
+                ></ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:text="Motherboard"
+                android:layout_gravity="bottom|center"
+                android:textStyle="bold"
+                ></TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:src="@drawable/ssd"
+                android:background="@color/white"
+                android:id="@+id/ssd"
+                ></ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:text="SSD"
+                android:layout_gravity="bottom|center"
+                android:textStyle="bold"
+                ></TextView>
+
+        </androidx.cardview.widget.CardView>>
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:src="@drawable/hdd"
+                android:background="@color/white"
+                android:id="@+id/hdd"
+                ></ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:text="HDD"
+                android:layout_gravity="bottom|center"
+                android:textStyle="bold"
+                ></TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:src="@drawable/cooler"
+                android:background="@color/white"
+                android:id="@+id/cpucooler"
+                ></ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:text="CPU Cooler"
+                android:layout_gravity="bottom|center"
+                android:textStyle="bold"
+                ></TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:src="@drawable/fans"
+                android:background="@color/white"
+                android:id="@+id/fans"
+                ></ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:text="Casing Fan"
+                android:layout_gravity="bottom|center"
+                android:textStyle="bold"
+                ></TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:src="@drawable/powersupply"
+                android:background="@color/white"
+                android:id="@+id/powersupply"
+                ></ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:text="Power Supply"
+                android:layout_gravity="bottom|center"
+                android:textStyle="bold"
+                ></TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:src="@drawable/casing"
+                android:background="@color/white"
+                android:id="@+id/casing"
+                ></ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:text="Casing"
+                android:layout_gravity="bottom|center"
+                android:textStyle="bold"
+                ></TextView>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_margin="10dp"
+            >
+        </TextView>
+
+    </GridLayout>
+
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
